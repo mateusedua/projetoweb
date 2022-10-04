@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Recuperar a senha</title>
+
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/esqueceu-senha.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="/public/icon-vaccine (1).png" width="30px" height="30px">
+            <h1>MyHealth</h1>
+        </header>
+        <main id="main">
+            <div>
+                <div class="input">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Redefinir senha" id="submit">
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/css" src="sweetalert2.all.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.10.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.10.0/firebase-auth-compat.js"></script>
+    <script src="../../scripts/config.js"></script>
+    <script type="module" src="../../scripts/recuperacao-senha.js"></script>
+</body>
+</html>

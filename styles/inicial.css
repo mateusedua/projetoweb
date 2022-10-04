@@ -1,0 +1,77 @@
+*{
+    font-family: 'Averia Libre';
+}
+header {
+    height: 50px;
+    background-color: #C1E7E3;
+    display: flex;
+    justify-content: space-between;
+    color: #2b8dca;
+}
+
+main{
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: linear-gradient(179.68deg, rgba(84, 131, 126, 0.2) 0.28%, rgba(255, 255, 255, 0.62) 9.89%, rgba(221, 230, 229, 0.68) 35.41%, rgba(59, 94, 90, 0.51) 100.65%),url('../public/body-bg.jfif');
+}
+
+.main-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.main-child > span{
+    font-size: 60px;
+    color: #2b8dca;
+}
+
+.header-child {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-child>img {
+    margin-left: 10px;
+}
+
+.header-child>h1 {
+    margin-left: 5px;
+}
+
+.header-button>input{
+    margin-right: 12px;
+    padding: 7px 10px 7px 10px;
+    color: white;
+    background-color: #419ED7;
+    box-shadow: 2px 2px 5px 2px rgb(151, 162, 173);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.criar-conta > input{
+    background-color:#419ED7;
+    color: white;
+    padding: 7px 10px 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-button>input:hover,.criar-conta>input:hover {
+    outline: none;
+    background-color: #2b8dca;
+}
+
+.header-button {
+    display: flex;
+    align-items: center;
+}

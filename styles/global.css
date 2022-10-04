@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Averia Libre';
+}
+
+input {
+    font-family: 'Averia Libre';
+    color: #3F92C5;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+label {
+    color: white;
+}
+
+/*
+Loading css
+*/
+
+.loading-div {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+}
+
+.loading {
+    animation: is-rotating 1s infinite;
+    border: 6px solid white;
+    border-radius: 50%;
+    border-top-color: black;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.loading-div>p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}

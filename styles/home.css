@@ -1,0 +1,48 @@
+*{
+    font-family: 'Averia Libre';
+}
+header {
+    height: 50px;
+    background-color: #C1E7E3;
+    display: flex;
+    justify-content: space-between;
+    color: #419ED7;
+}
+
+.header-child {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-child>img {
+    margin-left: 10px;
+}
+
+.header-child>h1 {
+    margin-left: 5px;
+}
+
+.header-button>input{
+    margin-right: 12px;
+    padding: 7px 10px 7px 10px;
+    color: white;
+    background-color: #419ED7;
+    box-shadow: 2px 2px 5px 2px rgb(151, 162, 173);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.header-button>input:hover,.criar-conta>input:hover {
+    outline: none;
+    background-color: #2b8dca;
+}
+
+.header-button {
+    display: flex;
+    align-items: center;
+}
+
+main{
+    height: calc(100vh - 50px);
+    background-color: #ADD5D0;
+}

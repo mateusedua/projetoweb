@@ -1,0 +1,152 @@
+header{
+    height: 50px;
+    background-color: #C1E7E3;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    color: #419ED7;
+}
+
+.header-title{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-title > img{
+    margin-left: 10px;
+}
+
+.header-button{
+    display: flex;
+    align-items: center;
+}
+
+.header-button >input{
+    margin-right: 12px;
+    padding: 7px 10px 7px 10px;
+    color: white;
+    background-color: #419ED7;
+    box-shadow: 2px 2px 5px 2px rgb(151, 162, 173);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header-button > input:hover{
+    outline: none;
+    background-color: #2b8dca;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    background-color: #ADD5D0;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+   margin-bottom: 5px;
+}
+.img-vacina{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+
+
+.input > label,#dose-label{
+    display: inline-block;
+    width: 174px;
+    text-align: right;
+    font-size: 17px;
+}
+
+
+.input > input{
+    width: 150px;
+    height: 25px;
+}
+
+.input-dose{
+    margin-bottom: 5px;
+}
+
+.input-dose > input{
+    width: 25px;
+    height: 25px;
+}
+
+#dose1{
+    width: 18px;
+    height: 18px;
+}
+
+#dose2{
+    width: 19px;
+    height: 19px;
+}
+
+#dose3{
+    width: 20px;
+    height: 20px;
+}
+
+#dose-reforco{
+    width: 21px;
+    height: 21px;
+}
+
+#dose-unica{
+    width: 22px;
+    height: 22px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+input:hover{
+    outline: 2px solid #419ED7;
+}
+
+input:focus{
+    outline: none;
+    outline: 2px solid #419ED7;
+    box-shadow: 0 0 0 0;
+}
+
+.input-dose > input:hover,.input-dose > input:focus{
+    outline: none;
+}
+
+
+
+.submit > input{
+    width: 100px;
+    height: 27px;
+    border: none;
+    background-color: #49B976;
+    font-size: 15px;
+    color: white;
+    box-shadow: 2px 2px 5px 2px lightslategray;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit > input:hover{
+    outline: none;
+    background-color: #05c451;
+}
+
+#comprovante{
+    display: none;
+}
