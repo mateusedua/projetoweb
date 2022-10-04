@@ -23,11 +23,6 @@ inputEmail.addEventListener("click",()=>{
         loadings[0].remove();
     }
 })
-/*
-<div style="position:fixed; color: red; width: 300px;display: flex;justify-content: center;">
-                    <p>Usuário nao encontrado</p>
-                </div>
-*/
 
 function getError(error){
     if(error.code == "auth/user-not-found"){
