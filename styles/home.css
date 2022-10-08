@@ -46,13 +46,14 @@ main{
     height: calc(100vh - 50px);
     background-color: #ADD5D0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .input{
     display: flex;
     background-color: white;
-    width: 90%;
+    width: 95%;
     height: 35px;
     margin-top: 27px;
     display: flex;
@@ -73,5 +74,39 @@ main{
 }
 
 .modal{
-    
+    width: 63%;
+    display: flex;
+}
+
+
+ol{
+    margin-top: 20px;
+    list-style-type: none;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+li{
+    background-color: white;
+    width: 240px;
+    height: 220px;
+    border-radius: 7px;   
+    margin: 20px;
+}
+
+.dose{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.dose-interna{
+    background-color: #419ED7;
+    padding: 2px 5px 2px 5px;
+    color: white;
+}
+
+.first{
+    padding: 5px;
 }
