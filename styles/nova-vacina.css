@@ -150,3 +150,29 @@ input:focus{
 #comprovante{
     display: none;
 }
+
+#button-comprovante{
+    background-color: #2b8dca;
+    width: 150px;
+    height: 25px;
+    font-size: 15px;
+}
+
+.input-comprovante{
+    display: flex;
+    gap: 4px;
+}
+
+#label-comprovante{
+    width: 174px;
+    text-align: right;
+    
+}
+
+.input-comprovate-button{
+    width: 150px;
+    height: 25px;
+    background-color: #05c451;
+    display: flex;
+    margin-bottom: 5px;
+}

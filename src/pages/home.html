@@ -34,57 +34,10 @@
                 <input type="text" name="pesquisar" id="pesquisar" placeholder="PESQUISAR VACINA...">
             </div>
             <div class="modal">
-                <ol>
-                    <li>
-                        <div class="dose first">
-                            <span>BCC</span>
-                        </div>
-                        <div class="dose">
-                            <div class="dose-interna">
-                                <span>Dose única</span>
-                            </div>
-                        </div>
-                        <div class="dose">
-                            <span>11/06/2022</span>
-                        </div>
-                        <div class="dose">
-                            <img src="../../public/image-comprovante.png" width="200px" height="100px">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="dose first">
-                            <span>BCC</span>
-                        </div>
-                        <div class="dose">
-                            <div class="dose-interna">
-                                <span>Dose única</span>
-                            </div>
-                        </div>
-                        <div class="dose">
-                            <span>11/06/2022</span>
-                        </div>
-                        <div class="dose">
-                            <img src="../../public/image-comprovante.png" width="200px" height="100px">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="dose first">
-                            <span>BCC</span>
-                        </div>
-                        <div class="dose">
-                            <div class="dose-interna">
-                                <span>Dose única</span>
-                            </div>
-                        </div>
-                        <div class="dose">
-                            <span>11/06/2022</span>
-                        </div>
-                        <div class="dose">
-                            <img src="../../public/image-comprovante.png" width="200px" height="100px">
-                        </div>
-                    </li>
-
-                </ol>
+                <ol id="lista"></ol>
+            </div>
+            <div class="footer">
+                <input type="button" value="Nova vacina" id="button-footer">
             </div>
         </main>
 
@@ -92,6 +45,7 @@
 
     <script src="https://www.gstatic.com/firebasejs/9.10.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.10.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore-compat.js"></script>
     <script src="../../scripts/config.js"></script>
     <script type="module" src="../../scripts/home.js"></script>
 
