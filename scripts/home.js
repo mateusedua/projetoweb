@@ -21,7 +21,6 @@ function findVacinas(uid){
             ...doc.data(),
             id: doc._delegate._key.path.segments[6]
         }));
-        console.log(transaction);
         addLista(transaction);
     })
 }
@@ -47,7 +46,6 @@ buttonfooter.addEventListener("click", () => {
 });
 
 function addLista(transaction) {
-    console.log(transaction);
     const lista = document.getElementById("lista");
 
    transaction.forEach(transaction => {
@@ -121,4 +119,25 @@ function addLista(transaction) {
 
         lista.appendChild(li);
    });
+}
+
+
+const pesquisar = document.getElementById("pesquisar");
+
+pesquisar.oninput = () =>{
+    const li = document.querySelectorAll("li");
+    
+    const digitado = pesquisar.value.toLowerCase();
+
+    Array.from(li).forEach((li)=>{
+        const valorElemento = li.getElementsByClassName("first");
+
+        const elemento = valorElemento[0].textContent;
+
+          if(elemento.includes(digitado)){
+              li.style.display = "block";
+          }else{
+              li.style.display = "none";
+          }
+    })
 }

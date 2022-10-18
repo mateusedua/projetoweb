@@ -58,9 +58,10 @@ main {
     background-color: white;
     width: 95%;
     height: 35px;
+    min-height: 35px;
     margin-top: 27px;
     display: flex;
-    align-items: center;
+    align-items:center;
 }
 
 #label {
@@ -159,4 +160,8 @@ li:hover {
 
 .interna-proxima > span{
     margin-right: 5px;
+}
+
+body{
+    background-color: #ADD5D0;
 }

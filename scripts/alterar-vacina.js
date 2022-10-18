@@ -163,18 +163,6 @@ submit.addEventListener("click", () => {
 
 })
 
-{/* <div class="alert">
-<div class="alert-body">
-<div class="message">
-    <span>Tem certeza que deseja remover essa vacina?</span>
-</div>
-<div class="alert-button">
-    <input type="button" value="SIM" id="sim">
-    <input type="button" value="CANCELAR" id="nao">
-</div>
-</div>
-</div> */}
-
 const excluir = document.getElementById("excluir");
 
 excluir.addEventListener("click",()=>{
