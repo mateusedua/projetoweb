@@ -106,3 +106,15 @@ input:focus{
     position:fixed;
     color: red;
 }
+
+
+#error-email{
+    display: flex;
+    height: 100%;
+    margin-left: 130px;
+}
+
+#error-email p{
+    margin-top: 5px;
+    color: red;
+}
