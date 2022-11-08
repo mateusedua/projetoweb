@@ -132,7 +132,7 @@ pesquisar.oninput = () =>{
     Array.from(li).forEach((li)=>{
         const valorElemento = li.getElementsByClassName("first");
 
-        const elemento = valorElemento[0].textContent;
+        const elemento = valorElemento[0].textContent.toLocaleLowerCase();
 
           if(elemento.includes(digitado)){
               li.style.display = "block";
